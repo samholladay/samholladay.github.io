@@ -14,12 +14,18 @@ body {
        width: 100%;
 	   color: #FFFFFF;
 	   text-align: left;
+       font-size: 20px;
+       opacity: 0.8;
 }
 
 #titleContent {
-	width:70%;
+	width:80%;
 	padding: 1% 0% 1% 15%;
 	background-color: inherit;
+}
+
+#titleContent a:hover {
+    opacity:0.65;
 }
 
 #title a{
@@ -31,10 +37,50 @@ body {
 	border: 0;
 	width: 70%;
 	margin: 5px 5px 5px 5px;
-	position: relative;
+	position: fixed;
 	right: 2%;
 }
 
+.push{margin-bottom: 30px}
+
+#top, #bottom, #left, #right {
+	background: #F5F5F5; /*very light gray*/
+	position: fixed;
+}
+
+#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+   
+#topborder, #bottomborder, #leftborder, #rightborder {
+	background: #DAA520;
+	position: fixed;
+}
+
+#leftborder, #rightborder {
+		top: 15px; bottom: 15px;
+		width: 2px;
+		}
+		#leftborder { left: 15px; }
+		#rightborder { right: 15px; }
+		
+#topborder, #bottomborder {
+		left: 15px; right: 15px;
+		height: 2px;
+		}
+		#topborder { top: 15px; }
+		#bottomborder { bottom: 15px; }
+        
 #content {
        overflow: hidden;
        clear: both;
@@ -64,3 +110,25 @@ body {
 	color: #000080; /*color: #333333;*/
 	text-decoration: none;
 }
+
+.icons {
+   position: absolute; bottom: 18px; right: 20px;
+   width: 100%;
+    } 
+.socialIcons img {
+                    height: 35px;
+                    width: 35px;
+                    opacity: 1;
+                    filter: alpha(opacity=40);
+                    margin-right: 2px;
+                }
+                .icons img {
+                    position: relative;
+                    display: inline;
+                    margin-right: 0 auto;
+                    margin-left: 0 auto;
+                }
+
+                .socialIcons img:hover {
+                    opacity:0.5;
+                }
