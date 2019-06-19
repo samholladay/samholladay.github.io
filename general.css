@@ -41,7 +41,7 @@ body {
 	padding: 5px 5px 5px 5px;
 	position: fixed;
 	right: 2%;
-	overflow: hidden;
+	overflow: auto;
 }
 
 .push{margin-bottom: 30px}
@@ -89,7 +89,7 @@ body {
 	   /*left:2%;*/
 	   position: relative;
 	   font-size: 18px;
-	   /*overflow: scroll;*/
+	   overflow: scroll;
 }
 
 #centerContentContainer a {
