@@ -63,7 +63,7 @@ body {
 		#bottom { bottom: 0; }
    
 #topborder, #bottomborder, #leftborder, #rightborder {
-	background: #DAA520;
+	background: #DAA520; /* Dark gold */
 	position: fixed;
 }
 
@@ -87,7 +87,7 @@ body {
 	   float: left;
        margin: 0.5% 0% 1% 15%;
        width: 70%;
-       background-color: #FFFFFF; /*grey #8D8D8D*/
+       background-color: #FFFFFF; /*dark grey #8D8D8D*/
        text-align: left;
        padding: 0px;
 	   color: #000000;
@@ -104,10 +104,11 @@ body {
 	   /*left:2%;*/
 	   position: relative;
 	   font-size: 18px;
+	   overflow: scroll;
 }
 
 #centerContentContainer a {
-	color: #000080; /*color: #333333;*/
+	color: #000080; /*color: #333333; Navy blue*/
 	text-decoration: none;
 }
 
