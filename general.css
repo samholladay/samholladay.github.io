@@ -6,6 +6,7 @@ body {
        font-size: 14px;
        font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
        color: #FFFFFF;
+       overflow: auto;
 	   /*Make background white, fades into to blue*/
 }
 
