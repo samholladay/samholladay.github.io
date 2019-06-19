@@ -99,7 +99,7 @@ body {
    
 #topborder, #bottomborder, #leftborder, #rightborder {
 	background: #DAA520; /* Dark gold */
-	position: fixed;
+	/*position: fixed;*/
 }
 
 #leftborder, #rightborder {
