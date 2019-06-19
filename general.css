@@ -83,7 +83,7 @@ body {
         
 #content {
        /*overflow: hidden;*/
-       overflow: scroll;
+       overflow: auto;
        clear: both;
 	   float: left;
        margin: 0.5% 0% 1% 15%;
